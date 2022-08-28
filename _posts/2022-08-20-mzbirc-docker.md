@@ -48,9 +48,9 @@ In file included from /home/bsb/mbzirc_ws/src/mbzirc/mbzirc_seed/src/ReadRfRange
    23 | #include <ros_ign_interfaces/msg/param_vec.hpp>
 ```
 
-## Setup to work in the container
+## Run a the container with rocker
 
-Run the container
+Run the container using the included convenience script.
 
 ```
 ~/WorkingCopies/dockwater/run.bash dockwater:mbzirc
@@ -62,6 +62,8 @@ Then, in separate terminals, join a few so that you have bash shells running in 
 ~/WorkingCopies/dockwater/join.bash dockwater_mbzirc_runtime
 ```
 
+I use the [terminator](https://terminator-gtk3.readthedocs.io/en/latest/) tool to have five shell sessions within the container in a single window like this...
+![image tooltip here](/assets/images/terminator.png)
 
 ## Build and run the mbzirc example
 
@@ -81,4 +83,4 @@ source ~/mbzirc_ws/install/setup.bash
 ros2 launch mbzirc_ros competition_local.launch.py ign_args:="-v 4 -r simple_demo.sdf"
 ```
 
-![image tooltip here](/assets/images/terminator.png)
+
