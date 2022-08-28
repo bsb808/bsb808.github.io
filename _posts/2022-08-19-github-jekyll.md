@@ -1,10 +1,6 @@
 ---
-author: Brian Bingham
-layout: post
 title:  "First post! Github pages and Jekyll."
-date:   2022-08-19 14:46:00 -0700
-media_type: image
-media_link: '/assets/images/8921143.png'
+last_modified_at: 2022-08-19T14:46:02-07:00
 categories: git jekyll
 ---
 
@@ -12,7 +8,7 @@ This is definitely experimental. I am looking for lightweight infrastructure to 
 
 So, I'm taking [GitHub Pages](https://pages.github.com/) with [Jekyll](https://jekyllrb.com/docs/github-pages/) for a spin.
 
-Setting up my user space on GitHub Pages is straightforward, resulting static webpage [bsb808.github.io/](https://bsb808.github.io/).  Then following the [GitHub Pages site with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll), which requires some host setup/installs.  
+Setting up my user space on GitHub Pages is straightforward, resulting static webpage [bsb808.github.io/](https://bsb808.github.io/).  Then following the [GitHub Pages site with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll), which requires some host setup/installs - i.e., [install Jekyll](https://jekyllrb.com/docs/installation/ubuntu) and `bundle install`.  
 
 From there, the workflow seems pretty simple...
 
